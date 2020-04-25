@@ -28,7 +28,7 @@ router.post("/articles/save", (req, res) => {
     body,
     categoryId: category,
   }).then(() => {
-    res.redirect("/articles");
+    res.redirect("/admin/articles");
   });
 });
 
